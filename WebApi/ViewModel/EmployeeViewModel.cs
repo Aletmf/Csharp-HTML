@@ -4,5 +4,7 @@
     {
         public string Name { get; set; }
         public int Age { get; set; }
+        // Conseguimos acessar todas propriedades da foto
+        public IFormFile Photo { get; set; }
     }
 }
